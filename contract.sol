@@ -1,7 +1,7 @@
 /**
    #STPmoon
    
-   #LIQ+#RFI+#SHIB+#DOGE, combine together to #PIG  
+   #LIQ+#RFI+#SHIB+#DOGE, combine together to #STPM 
 
     I make this #PIG to hand over it to the community.
     Create the community by yourself if you are interested.   
