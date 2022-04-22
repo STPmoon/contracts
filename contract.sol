@@ -1,34 +1,29 @@
 /**
- *Submitted for verification at BscScan.com on 2021-02-26
-*/
-
-/**
-   #PIG
+   #STPmoon
    
    #LIQ+#RFI+#SHIB+#DOGE, combine together to #PIG  
 
     I make this #PIG to hand over it to the community.
     Create the community by yourself if you are interested.   
-    I suggest a telegram group name for you to create: https://t.me/PigTokenBSC
+    I suggest a telegram group name for you to create: https://t.me/STPmoonbsc
 
    Great features:
    3% fee auto add to the liquidity pool to locked forever when selling
    2% fee auto distribute to all holders
    50% burn to the black hole, with such big black hole and 3% fee, the strong holder will get a valuable reward
 
-   I will burn liquidity LPs to burn addresses to lock the pool forever.
-   I will renounce the ownership to burn addresses to transfer #PIG to the community, make sure it's 100% safe.
+   make sure it's 100% safe.
 
    I will add 0.999 BNB and all the left 49.5% total supply to the pool
-   Can you make #PIG 10000000X? 
+   Can you make #STPmoon 10000000X? 
 
    1,000,000,000,000,000 total supply
    5,000,000,000,000 tokens limitation for trade
-   0.5% tokens for dev
+   
 
    3% fee for liquidity will go to an address that the contract creates, 
    and the contract will sell it and add to liquidity automatically, 
-   it's the best part of the #PIG idea, increasing the liquidity pool automatically, 
+   it's the best part of the #STPmoon idea, increasing the liquidity pool automatically, 
    help the pool grow from the small init pool.
 
  */
@@ -713,7 +708,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
 }
 
 
-contract PigToken is Context, IERC20, Ownable {
+contract STPmoon is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -731,8 +726,8 @@ contract PigToken is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "Pig Token";
-    string private _symbol = "PIG";
+    string private _name = "STPmoon";
+    string private _symbol = "STPM";
     uint8 private _decimals = 9;
     
     uint256 public _taxFee = 2;
